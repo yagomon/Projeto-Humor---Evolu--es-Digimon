@@ -26,12 +26,14 @@ elementoBtn.addEventListener('click', () =>{
     elementoBtn.value = 'quarto'  /* Altera valor do botão */
     } else if(elementoBtn.value == 'quarto') { /* Verifica se o valour do botão é 'segundo', se for troque de humor para o Dr. Hulk */
     elementoImg.src = './assets/img/wargreymon.png'  /* Troca a imagem do personagem */
+    elementoImg.setAttribute('style','width:12rem;')
     elementoNome.innerText = 'WarGreymon' /* Altera o texto do elemento nome */
     elementoSituacao.innerText = 'Nível: final' /* Altera o texto do elemento situação */
     elementoBtn.innerText = 'Voltar'
     elementoBtn.value = 'quinto'  /* Altera valor do botão */
     } else { /* Se os valores do botão não forem, 'primeiro' nem 'segundo' mude para o Dr. Banner */
         elementoImg.src = './assets/img/koromon.png' /* Troca a imagem do personagem */
+        elementoImg.style.width= ''
         elementoNome.innerText = 'Koromon' /* Altera o texto do elemento nome */
         elementoSituacao.innerText = 'Nível: bebê' /* Altera o texto do elemento situação */
         elementoBtn.innerText = 'Digivolve para ...'

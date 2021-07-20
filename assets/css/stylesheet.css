@@ -4,9 +4,13 @@
     font-family: Helvetica, sans-serif;
 }
 
+body,html{
+    width: 100%;
+}
+
 body nav{
     background-image: linear-gradient(to top, white, rgb(75, 189, 255));
-    padding: 1rem;
+    padding-top: 1rem;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -24,16 +28,14 @@ body section{
     align-items: center;
     background: url("../img/bg.png" );
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: ;
+    background-size: 100%; ;
     width: 100%;
     
 }    
 
 body section div#evolução{
-    margin-top:8rem;
-    margin-bottom: 10rem;
-    
+    margin-top:2.5rem;
+    margin-bottom: 5rem;    
 }
 
 body section div#evolução p{
@@ -60,7 +62,7 @@ body section div#evolução div{
 body section div#evolução div img{
     width: 15vw;
     padding-bottom: 3rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     
 }
 
